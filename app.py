@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 import joblib
 from scipy.sparse import csr_matrix
+import scipy
 pd.set_option("display.max_columns",None)
 pd.set_option("display.max_rows",150)
 pd.set_option("expand_frame_repr", False)
