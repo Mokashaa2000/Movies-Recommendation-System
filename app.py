@@ -6,11 +6,11 @@ pd.set_option("display.max_columns",None)
 pd.set_option("display.max_rows",150)
 pd.set_option("expand_frame_repr", False)
 pd.option_context("mode.dtype_backend","pyarrow")
-filename = "E:/2023/Data Science Best Practices/Projects/Movies recommendation system/ml-latest-small/piv.csv"
+filename = "piv.csv"
 df =pd.read_csv(filename)
 df = df.set_index("title")
 titles = df.index.tolist()
-modelname = "E:/2023/Data Science Best Practices/Projects/Movies recommendation system/ml-latest-small/Completed_model.joblib"
+modelname = "Completed_model.joblib"
 model = joblib.load(modelname)
 
 
