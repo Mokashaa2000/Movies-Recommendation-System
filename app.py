@@ -26,7 +26,7 @@ st.write('''
     ## Dataset
     the dataset used in this system is the small version of Movie Lens dataset which contains 100,000 ratings and 3,600 tag applications applied to 9,000 movies by 600 users
 
-    ## Algprithm Used
+    ## Algorithm Used
     for this model I decided to keep the model as simple as possible.
     this model was built using Knearest neighbors and with cosine similarity applied.
 
@@ -56,7 +56,7 @@ def generate():
             st.write("I Recommend that you watch \n")
             pass
         else:
-            st.write(f"{i}: {df.index[indices.flatten()[i]]} movie with accuracy of {1-distances.flatten()[i]}")
+            st.write(f"{i}: {df.index[indices.flatten()[i]]} movie")
 
 if st.button("Click To Generate Recommendations"):
 
