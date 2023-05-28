@@ -11,7 +11,7 @@ After retrieving data from the movies.csv and ratings.csv datasets, I converted 
 ## Collaborative Filtering
 Collaborative Filtering involves suggesting movies to the users that are based on collecting preferences from many other users. For example, if a user A likes to watch action films and so does user B, then the movies that user B will watch in the future will be recommended to A and vice-versa. Therefore, recommending movies is dependent on creating a relationship of similarity between the users or the movies.
 
-## the Web Application
+## Web Application
 I built the web application using streamlit library which is a python library to build web applications fast and easy
 
 The web application can be found on https://rte.onrender.com/
