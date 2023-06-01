@@ -17,26 +17,11 @@ model = joblib.load(modelname)
 
 
 
-st.markdown(
-         f"""
-         <style>
-         .stApp {{
-             background-image: url("https://wallpapercave.com/wp/wp1945897.jpg");
-             background-attachment: fixed;
-             background-size: cover;
-             opacity: 0.3;
-             
-         }}
-         </style>
-         """,
-         unsafe_allow_html=True
-     )
-
 
 
 
 st.markdown('''
-    ## :white[Movies Recommendation system]
+    ## Movies Recommendation system
     
     this is a movierecommendation system web app that use collabrative filtering to recommend movies base on other's
     people ratings
