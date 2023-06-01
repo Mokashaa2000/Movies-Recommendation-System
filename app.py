@@ -24,6 +24,7 @@ st.markdown(
              background-image: url("https://wallpapercave.com/wp/wp1945897.jpg");
              background-attachment: fixed;
              background-size: cover
+             opacity: 0.3
          }}
          </style>
          """,
@@ -33,8 +34,8 @@ st.markdown(
 
 
 
-st.write('''
-    ## Movies Recommendation system
+st.markdown('''
+    ## :white[Movies Recommendation system]
     
     this is a movierecommendation system web app that use collabrative filtering to recommend movies base on other's
     people ratings
