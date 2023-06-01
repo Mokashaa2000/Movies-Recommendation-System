@@ -21,7 +21,7 @@ st.markdown(
          f"""
          <style>
          .stApp {{
-             background-image: url("https://wallpapercave.com/w/wp1945897");
+             background-image: url("https://wallpapercave.com/wp/wp1945897.jpg");
              background-attachment: fixed;
              background-size: cover
          }}
